@@ -1,0 +1,123 @@
+<html>
+<head>
+	<title>Quiz</title>
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<div id = "wrapper">
+<body>
+	<h1>Javascript Sporting Quiz</h1>
+	<div id "questions">
+	<form name = "sportsquiz">
+		<h3>Q1. Who is the current lineal Heavyweight Boxing champion?</h3><br>
+		<img src="images/lineal belt.jpeg"  width="250" height="250"></br>
+
+		<input type = "radio" name = "q1" value = "a">Tyson Fury</br>
+		<input type = "radio" name = "q1" value = "b">Joe Joyce</br>
+		<input type = "radio" name = "q1" value = "c">Anthony Joshua</br>
+		<input type = "radio" name = "q1" value = "d">David Haye</br>
+		<input type = "button" value = "submit" onclick = "check()">
+
+		<h3>Q2. Where is Conor Mcgregor from ?</h3><br>
+		<img src="images/conor mcgregor.jpeg"  width="250" height="250"></br>
+		<input type = "radio" name = "q2" value = "a">Dublin</br>
+		<input type = "radio" name = "q2" value = "b">Cork</br>
+		<input type = "radio" name = "q2" value = "c">Galway</br>
+		<input type = "radio" name = "q2" value = "d">Liverpool</br>
+		<input type = "button" value = "submit" onclick = "check2()">
+
+		<h3>Q3. How many times have Liverpool won the premier league?</h3><br>
+		<img src="images/liverpool badge.png"  width="250" height="250"></br>
+		<input type = "radio" name = "q3" value = "a">1</br>
+		<input type = "radio" name = "q3" value = "b">5</br>
+		<input type = "radio" name = "q3" value = "d">10</br>
+		<input type = "radio" name = "q3" value = "c">7</br>
+		<input type = "button" value = "submit" onclick = "check3()">
+
+		<h3>Q4. Who won the nba championship last year?</h3><br>
+		<img src="images/nba logo.png"  width="250" height="250"></br>
+		<input type = "radio" name = "q4" value = "a">Houston Rockets</br>
+		<input type = "radio" name = "q4" value = "b">Los Angeles Lakers</br>
+		<input type = "radio" name = "q4" value = "c">Chicago Bulls</br>
+		<input type = "radio" name = "q4" value = "d">Miami Heat</br>
+		<input type = "button" value = "submit" onclick = "check4()">
+		
+
+		<h3>Q5. Where is the Liverpool player Mo Salah from?</h3><br>
+		<img src="images/mo salah.jpeg"  width="250" height="250"></br>
+		<input type = "radio" name = "q5" value = "a">England</br>
+		<input type = "radio" name = "q5" value = "b">Egypt</br>
+		<input type = "radio" name = "q5" value = "c">Algeria</br>
+		<input type = "radio" name = "q5" value = "d">Albania</br>
+		<input type = "button" value = "submit" onclick = "check5()">
+		
+		
+
+		<h3>Q6. Who did Ireland recently lose to 1-0 at the Aviva?</h3><br>
+		<img src="images/ireland badge.png"  width="250" height="250"></br>
+		<input type = "radio" name = "q6" value = "a">Germany</br>
+		<input type = "radio" name = "q6" value = "b">Luxemberg</br>
+		<input type = "radio" name = "q6" value = "c">Spain</br>
+		<input type = "radio" name = "q6" value = "d">England</br>
+		<input type = "button" value = "submit" onclick = "check6()">
+
+		<h3>Q7. How many fights has Floyd Mayweather lost?</h3><br>
+		<img src="images/floyd mayweather.jpeg"  width="250" height="250"></br>
+		<input type = "radio" name = "q7" value = "a">20</br>
+		<input type = "radio" name = "q7" value = "b">10</br>
+		<input type = "radio" name = "q7" value = "c">5</br>
+		<input type = "radio" name = "q7" value = "d">0</br>
+		<input type = "button" value = "submit" onclick = "check7()">
+
+		<h3>Q8. Who won last seasons Champions League?</h3><br>
+		<img src="images/champions league.png"  width="250" height="250"></br>
+		<input type = "radio" name = "q8" value = "a">Bayern Munich</br>
+		<input type = "radio" name = "q8" value = "b">PSG</br>
+		<input type = "radio" name = "q8" value = "c">Liverpool</br>
+		<input type = "radio" name = "q8" value = "d">Manchester City</br>
+		<input type = "button" value = "submit" onclick = "check8()">
+
+		<h3>Q9. Which football team does Lionel Messi play for?</h3><br>
+		<img src="images/messi.jpeg"  width="250" height="250"></br>
+		<input type = "radio" name = "q9" value = "a">Bayern Munich</br>
+		<input type = "radio" name = "q9" value = "b">Manchester United</br>
+		<input type = "radio" name = "q9" value = "c">Barcelona</br>
+		<input type = "radio" name = "q9" value = "d">Manchester City</br>
+		<input type = "button" value = "submit" onclick = "check9()">
+
+
+		<h3>Q10. Who is the highest payed athele in the world?</h3><br>
+		<img src="images/money.jpeg"  width="250" height="250"></br>
+		<input type = "radio" name = "q10" value = "a">Rodger Federer</br>
+		<input type = "radio" name = "q10" value = "b">Cristiano Ronaldo</br>
+		<input type = "radio" name = "q10" value = "c">Lebron James</br>
+		<input type = "radio" name = "q10" value = "d">Neymar</br>
+		<input type = "button" value = "submit" onclick = "check10()">
+		</div>
+
+		<div id ="finalscore">
+		<p id="demo" onclick="finalscore()">Click me to recieve your final score.</p>
+
+		</div>
+	</body>
+
+
+		
+
+
+		
+
+		<script src = "js/quiz.js"></script>
+		</html>
+			
+
+
+	
+
+
+
+	</form>
+
+</body>
+
+</div>
